@@ -1,0 +1,237 @@
+body {
+    background-color: #F4EAE1;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+main h1 {
+    color: #edb506;
+    float: right;
+    font-size: 50px;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+
+/* project cards */
+/* 
+#page {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    grid-template-areas:
+    "1&2 1&2"
+    "3 3";
+    "nav  foot";
+    grid-template-rows: 5fr 3fr ;
+    grid-template-columns:  2fr 1fr;
+}
+
+#page > #projectCard1and2 {
+    grid-area: 1&2;
+    background-color: #8ca0ff;
+}
+
+#page > #card3 {
+    grid-area: 3;
+    background-color: #8ca0ff;
+} */
+
+
+
+#projectCard1and2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* margin-top: 9em; */
+    width: 80%;
+    /* margin-bottom: 300px; */
+    height: 32em;
+    margin-bottom: 6em;
+    /* padding: 0 2%; */
+    /* border: 1px solid red; */
+}
+
+/* first card */
+#projectCard1and2 #firstCard {
+    background-color: #D63FC1;
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    /* overflow: hidden; */
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard1and2 #firstCard #webinarText1 {
+    margin-left: 2.5em;
+    color: #090444;
+    margin-top: 2em;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#projectCard1and2 #firstCard .webinarText2and3 {
+    /* margin-top: 1em; */
+    margin-left: 9em;
+    color: #F4EAE1;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#projectCard1and2 #firstCard #webinarText4 {
+    margin-top: 2em;
+    margin-left: 3em;
+    font-size: 2em;
+}
+
+/* second card */
+#projectCard1and2 #secondCard {
+    position: relative;
+    background-color: #D63FC1;
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard1and2 #secondCard p {
+    color: #F4EAE1;
+    font-size: 2em;
+    position: absolute;
+    left: 2em;
+    bottom: 0.5em;
+}
+
+#projectCard1and2 #secondCard #imgTote {
+    background-image: url(../images/tote.jpg);
+    background-position: center center;
+    width: 22em;
+    height: 30em;
+    float: right;
+}
+
+/* third card */
+
+#thirdCard {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    background-color: #D63FC1;
+    width: 81%;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#thirdCard #GarbageText1 {
+    margin-top: 2em;
+    color: #090444;
+    font-size: 2.5em;
+    margin-left: 6%;
+    width: 55%;
+}
+
+#thirdCard #GarbageText2 {
+    color: #090444;
+    font-size: 1.5em;
+    margin-left: 6%;
+    width: 65%;
+}
+
+#thirdCard #GarbageText3 {
+    color: #F4EAE1;
+    font-size: 1.5em;
+    margin-left: 6%;
+    width: 50%;
+}
+
+#thirdCard #imgGarbage {
+    background-image: url(../images/Garbage.jpg);
+    background-position: center;
+    width: 30%;
+    height: 30em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* cards 4&5 */
+
+#projectCard4and5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    height: 32em;
+    margin-bottom: 6em;
+}
+
+/* forth card */
+
+#projectCard4and5 #forthCard {
+    position: relative;
+    background-color: #D63FC1;
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#forthCard p {
+    color: #090444;
+    position: absolute;
+    font-size: 2em;
+    bottom: 1em;
+    left: 1em;
+}
+
+#forthCard div {
+    background-image: url(../images/clothing.jpg);
+    background-position: center;
+    width: 100%;
+    height: 70%;
+}
+
+/* fifthCard */
+
+
+#projectCard4and5 #fifthCard {
+    position: relative;
+    background-color: #D63FC1;
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+} 
+
+#fifthCard div {
+    background-image: url(../images/dog.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+}
+
+#fifthCard #dogText1 {
+    color: #F4EAE1;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+    margin-left: 5%;
+}
+
+#fifthCard .dogText2and3 {
+    color: #090444;
+    font-size: 1em;
+    margin-top: 0.5;
+    margin-left: 5%;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+body {
+    background-color: #F4EAE1;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+h1 {
+    float: right;
+    margin-right: 100px;
+    color: #090444;
+    margin: 0;
+}
+
+main h2 {
+    margin-left: 20%;
+}
+
+#projectCard1and2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+    height: 32em;
+    margin-bottom: 6em;
+}
+
+/* first card */
+#projectCard1and2 #firstCard {
+    background-color: #D63FC1;
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    /* overflow: hidden; */
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard1and2 #firstCard #webinarText1 {
+    margin-left: 2.5em;
+    color: #090444;
+    margin-top: 2em;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#projectCard1and2 #firstCard .webinarText2and3 {
+    /* margin-top: 1em; */
+    margin-left: 9em;
+    color: #F4EAE1;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#projectCard1and2 #firstCard #webinarText4 {
+    margin-top: 2em;
+    margin-left: 3em;
+    font-size: 2em;
+}
+
+/* second card */
+#projectCard1and2 #secondCard {
+    position: relative;
+    background-color: #D63FC1;
+    width: 30em;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard1and2 #secondCard p {
+    color: #F4EAE1;
+    font-size: 2em;
+    position: absolute;
+    left: 2em;
+    bottom: 0.5em;
+}
+
+#projectCard1and2 #secondCard #imgTote {
+    background-image: url(../images/tote.jpg);
+    background-position: center center;
+    width: 22em;
+    height: 30em;
+    float: right;
+}

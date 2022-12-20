@@ -1,0 +1,313 @@
+body {
+    background-color: #F4EAE1;
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+/* headline */
+
+main #headMain {
+    width: 100%;
+    height: 700px;
+    background-color: #edb506;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main section #headImage img{
+    float: right;
+    /* width: 60%; */
+    /* margin-right: 3em; */
+    /* margin-top: 57%; */
+}
+
+main section #headText {
+    margin-left: 3em;
+    margin-bottom: 8em;
+    width: 35%;
+    padding-top: 20em;
+    text-shadow: -5px 5px #D63FC1;
+}
+
+main section #headText p {
+    color: #F4EAE1;
+    float: left;
+    font-size: 50px;
+}
+
+/* project cards */
+
+#MainProjectCards {
+    color: #edb506;
+    float: right;
+    font-size: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#projectCard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16em;
+    /* margin-bottom: 300px; */
+    height: 32em;
+    margin-bottom: 6em;
+    padding: 0 2%;
+    /* border: 1px solid red; */
+}
+
+/* first card */
+
+#projectCard #firstCard {
+    background-color: #D63FC1;
+    width: 22em;
+    /* margin-left: 5em; */
+    /* margin-top: 16em; */
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard #firstCard #imgGym {
+    background-image: url("../images/gymCard.jpg");
+    background-position: center center;
+    width: 22em;
+    height: 20em;
+    /* padding-top: 1em; */
+}
+
+#projectCard #firstCard #gymText1 {
+    color: #090444;
+    font-size: 2em;
+    padding-left: 0.5em;
+    margin: 0;
+    margin-top: 1em;    
+}
+
+#projectCard #firstCard #gymText2 {
+    margin: 0;
+    color: #F4EAE1;
+    padding-right: 2em;
+    padding-left: 6em;
+    padding-top: 1em;
+}
+
+/* second card */
+
+#projectCard #secondCard {
+    background-color: #D63FC1;
+    width: 22em;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard #secondCard #canText1 {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 1em;
+    color: #F4EAE1;
+}
+
+#imgCan {
+    background-image: url(../images/Garbage.jpg);
+    width: 22em;
+    height: 22em;
+    background-position: center top;
+}
+
+/* third card */
+
+#projectCard #thirdCard {
+    background-color: #D63FC1;
+    width: 22em;
+    height: 30em;
+    border-radius: 4em;
+    overflow: hidden;
+    box-shadow: 1em 0.7em #090444;
+}
+
+#projectCard #thirdCard #chlothText {
+    font-size: 2em;
+    margin-top: 1.2em;
+    margin-left: 0.9em;
+    color: #090444;
+}
+
+#imgShirts{
+    background-image: url(../images/shirts.jpg);
+    width: 22em;
+    height: 22em;
+    background-position: center;
+}
+
+/* go vegan section*/
+
+#GoVegan {
+    margin: 0;
+    background-color: #F4EAE1; */
+    height: 70em;
+}
+
+#GoVegan #imgBoxSalad {
+    margin: 0;
+    /* margin-left: 15em; */
+    /* padding-top: 2em; */
+    width: 100%;
+    height: 22em;
+}
+
+#imgSalad {
+    background-image: url(../images/salad.jpg);
+    width: 100%;
+    height: 22em;
+    background-position: center center /cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#saladTextBox {
+    margin-left: 10em;
+    /* padding-top: 3em; */
+}
+
+#GoVegan h3 {
+    margin-top: 1em;
+    font-size: 5em;
+    width: 10%;
+    color: #edb506;
+    text-shadow: 5px 5px #090444;
+    display: inline-block;
+    width: 30%;
+}
+
+#GoVegan #saladTextBox p {
+    float: right;
+    width: 50%;
+    font-size: 1.5em;
+    color: #edb506;
+    margin-right: 7%;
+    margin-top: 6em;
+} 
+
+/* donation box */
+
+#donationBox {
+    height: 23em;
+    margin: 0 5%;
+}
+
+#donationBox h3 {
+    font-size: 50px;
+    color: #edb506;
+    float: right;
+    margin: 0;
+    /* margin-right: 3em; */
+}
+
+#donationBox #pEveryDolar {
+    color: #edb506;
+    /* margin-top: 50px; */
+    /* margin-top: 6em; */
+    font-size: 30px;
+    /* float: left; */
+    /* margin-left: 3em; */
+}
+
+#textBoxDonation {
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+
+#donationBox .pDonation {
+    color: #090444;
+    /* margin-top: 5em; */
+    font-size: 25px;
+    /* float: left; */
+    /* margin-left: 3em; */
+}
+
+/* responsive */
+
+@media (max-width: 1200px) {
+    #projectCard {
+        width: 80%;
+        flex-wrap: wrap;
+        height: 1130px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 1020px) {
+    #projectCard {
+        height: 1700px;
+        /* margin-top: 30px; */
+        /* padding: 0 20px; */
+    }
+    #projectCard #firstCard {
+        margin-right: 35px;
+    }
+    #projectCard #secondCard {
+        margin-right: 35px;
+    }
+    #projectCard #thirdCard {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 860px) {
+    main #headMain {
+        height: 500px;
+    }
+
+    #saladTextBox {
+        margin-left: 5em;
+    }
+
+    #GoVegan #saladTextBox p {
+        margin-right: 3%;
+    }
+    main section #headImage img{
+        float: none;
+        position: static;
+        width: 500px;
+    }
+    main section #headText p {
+        color: #F4EAE1;
+        float: none;
+        font-size: 40px;
+        position: absolute;
+        top: 130px;
+    }
+    main section #headImage img {
+        
+    }
+
+
+    /* hamburger */
+
+
+}
+
+@media (max-width: 730px) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
