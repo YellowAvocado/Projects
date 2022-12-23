@@ -7,9 +7,9 @@ body {
 
 h1 {
     float: right;
-    margin-right: 100px;
-    color: #090444;
+    color: #edb506;
     margin: 0;
+    padding-right: 25px;
 }
 
 main h2 {
@@ -32,7 +32,6 @@ main h2 {
     width: 30em;
     height: 30em;
     border-radius: 4em;
-    /* overflow: hidden; */
     box-shadow: 1em 0.7em #090444;
 }
 
@@ -45,7 +44,6 @@ main h2 {
 }
 
 #projectCard1and2 #firstCard .webinarText2and3 {
-    /* margin-top: 1em; */
     margin-left: 9em;
     color: #F4EAE1;
     font-size: 27px;
@@ -83,4 +81,232 @@ main h2 {
     width: 22em;
     height: 30em;
     float: right;
+}
+
+/* form */
+
+#form {
+   margin-left: 30%;
+   color: #090444;
+   height: 40em;
+}
+
+#fname {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 5em;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#lname {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 5em;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#email {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 5em;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#donation {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 5em;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#comment {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 1em;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+#submit {
+    font-family: 'Ubuntu';
+    margin: 0 auto;
+    display: inline-block;
+    background: #090444;
+    color: #F4EAE1;
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 1em;
+}
+
+.textDonation {
+    text-align: center;
+    font-size: 15px;
+}
+#textDonation2 {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1300px) {
+    #projectCard1and2 #firstCard {
+        width: 25em;
+        height: 25em;
+    }
+    #projectCard1and2 #secondCard {
+        width: 25em;
+        height: 25em;
+    }
+    #projectCard1and2 #firstCard #webinarText1 {
+        margin-left: 2em;
+        color: #090444;
+        margin-top: 1.5em;
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    } 
+    #projectCard1and2 #firstCard .webinarText2and3 {
+        /* margin-top: 1em; */
+        margin-left: 8em;
+        color: #F4EAE1;
+        font-size: 24px;
+        font-weight: 500;
+    } 
+    #projectCard1and2 #firstCard #webinarText4 {
+        margin-top: 2em;
+        margin-left: 2em;
+        font-size: 1.5em;
+    }
+    #projectCard1and2 #secondCard {
+        width: 25em;
+        height: 25em;
+    }
+    #projectCard1and2 #secondCard p {
+        color: #F4EAE1;
+        font-size: 1.7em;
+        position: absolute;
+        left: 1.5em;
+        bottom: 0.3em;
+    }
+    #projectCard1and2 #secondCard #imgTote {
+        width: 17em;
+        height: 25em;
+    }
+}
+
+@media (max-width: 1200px) {
+    #projectCard1and2 {
+        width: 60%;
+        height: 17em;
+        margin-bottom: 6em;
+    }
+    #projectCard1and2 #firstCard {
+        width: 17em;
+        height: 17em;
+    }
+    #projectCard1and2 #firstCard #webinarText1 {
+        margin-left: 1.4em;
+        width: 70%;
+        margin-top: 1em;
+        font-size: 1.4em;
+        margin-bottom: 0.5em;
+    }
+    #projectCard1and2 #firstCard .webinarText2and3 {
+        margin-left: 6em;
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #projectCard1and2 #firstCard #webinarText4 {
+        margin-top: 2em;
+        margin-left: 1.7em;
+        font-size: 1.2em;
+    }
+    #projectCard1and2 #secondCard {
+        width: 17em;
+        height: 17em;
+    }
+    #projectCard1and2 #secondCard p {
+        font-size: 1.3em;
+        left: 1em;
+        bottom: 0.2em;
+    }
+    #projectCard1and2 #secondCard #imgTote {
+        width: 14em;
+        height: 17em;
+    }
+}
+
+@media (max-width: 940px) {
+    #projectCard1and2 {
+        width: 80%;
+        height: 17em;
+        margin-bottom: 6em;
+    }
+}
+
+@media (max-width: 770px) {
+    #projectCard1and2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 17;
+        height: 40em;
+        margin-bottom: 6em;
+    }
+    #projectCard1and2 #firstCard {
+        margin: 0 auto;
+    }
+    #projectCard1and2 #secondCard {
+        margin: 0 auto;
+    }
+    #projectCard4and5 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 17;
+        height: 40em;
+        margin-bottom: 6em;
+    }
+    #projectCard4and5 #forthCard {
+        margin: 0 auto;
+    }
+    #projectCard4and5 #fifthCard {
+        margin: 0 auto;
+    }
+
+    #form {
+        margin-left: 5%;
+     }
+    #submit {
+        font-size: 18px;
+        padding: 8px 20px;
+        border-radius: 1em;
+    }
+        
+    #fname {
+        width: 80%;
+    }
+
+    #lname {
+        width: 80%;
+    }
+
+    #email {
+        width: 80%;
+    }
+
+    #donation {
+        width: 80%;
+    }
+
+    #comment {
+        width: 80%;
+    }
 }
