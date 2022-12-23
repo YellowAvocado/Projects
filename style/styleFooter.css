@@ -10,6 +10,7 @@ footer ul {
     display: flex;
     justify-content: space-around;
     width: 60%;
+    padding-left: 0;
 }
 
 footer a li {
@@ -23,4 +24,28 @@ footer p {
     margin-top: 1.5em;
     text-align: center;
     color: #090444;
+}
+
+@media (max-width: 870px) {
+    footer {
+        height: 5.5em;
+    }
+    footer ul a li {
+        font-size: 12px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        height: 5em;
+    }
+    footer ul a li {
+        font-size: 10px;
+    }
+    footer p {
+        font-size: 10px;
+    }
 }

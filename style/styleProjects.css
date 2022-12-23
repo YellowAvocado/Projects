@@ -13,43 +13,14 @@ main h1 {
     margin-top: 1em;
 }
 
-/* project cards */
-/* 
-#page {
-    display: grid;
-    width: 100%;
-    height: 800px;
-    grid-template-areas:
-    "1&2 1&2"
-    "3 3";
-    "nav  foot";
-    grid-template-rows: 5fr 3fr ;
-    grid-template-columns:  2fr 1fr;
-}
-
-#page > #projectCard1and2 {
-    grid-area: 1&2;
-    background-color: #8ca0ff;
-}
-
-#page > #card3 {
-    grid-area: 3;
-    background-color: #8ca0ff;
-} */
-
-
 
 #projectCard1and2 {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    /* margin-top: 9em; */
     width: 80%;
-    /* margin-bottom: 300px; */
     height: 32em;
     margin-bottom: 6em;
-    /* padding: 0 2%; */
-    /* border: 1px solid red; */
 }
 
 /* first card */
@@ -80,8 +51,8 @@ main h1 {
 
 #projectCard1and2 #firstCard #webinarText4 {
     margin-top: 2em;
-    margin-left: 3em;
-    font-size: 2em;
+    margin-left: 2em;
+    font-size: 1.5em;
 }
 
 /* second card */
@@ -212,7 +183,7 @@ main h1 {
     background-image: url(../images/dog.jpg);
     background-position: center center;
     width: 100%;
-    height: 70%;
+    height: 75%;
     position: absolute;
     bottom: 0;
 }
@@ -231,6 +202,282 @@ main h1 {
     margin-top: 0.5;
     margin-left: 5%;
 }
+
+/* responsive */
+
+@media (max-width: 1300px) {
+    #projectCard1and2 #firstCard {
+        width: 25em;
+        height: 25em;
+    }
+    #projectCard1and2 #firstCard #webinarText1 {
+        margin-left: 2em;
+        color: #090444;
+        margin-top: 1.5em;
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    } 
+    #projectCard1and2 #firstCard .webinarText2and3 {
+        /* margin-top: 1em; */
+        margin-left: 8em;
+        color: #F4EAE1;
+        font-size: 24px;
+        font-weight: 500;
+    } 
+    #projectCard1and2 #firstCard #webinarText4 {
+        margin-top: 2em;
+        margin-left: 2em;
+        font-size: 1.5em;
+    }
+    #projectCard1and2 #secondCard {
+        width: 25em;
+        height: 25em;
+    }
+    #projectCard1and2 #secondCard p {
+        color: #F4EAE1;
+        font-size: 1.7em;
+        position: absolute;
+        left: 1.5em;
+        bottom: 0.3em;
+    }
+    #projectCard1and2 #secondCard #imgTote {
+        width: 17em;
+        height: 25em;
+    }
+    #thirdCard {
+        width: 81%;
+        height: 25em;
+    }
+    #thirdCard #GarbageText1 {
+        margin-top: 2em;
+        font-size: 2em;
+        margin-left: 6%;
+        width: 55%;
+    } 
+    #thirdCard #GarbageText2 {
+        color: #090444;
+        font-size: 1.3em;
+        margin-left: 6%;
+        width: 65%;
+    }
+    #thirdCard #GarbageText3 {
+        color: #F4EAE1;
+        font-size: 1.2em;
+        margin-left: 6%;
+        width: 60%;
+    }
+    #projectCard4and5 #forthCard {
+        width: 25em;
+        height: 25em;
+    }
+    #forthCard p {
+        color: #090444;
+        position: absolute;
+        font-size: 1.5em;
+        bottom: 1em;
+        left: 1em;
+    }  
+    #projectCard4and5 #fifthCard {
+        width: 25em;
+        height: 25em;
+    } 
+    #fifthCard div {
+        background-image: url(../images/dog.jpg);
+        background-position: center center;
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        bottom: 0;
+    }
+    #fifthCard #dogText1 {
+        color: #F4EAE1;
+        font-size: 1.5em;
+        margin-bottom: 0;
+        margin-top: 1em;
+        margin-left: 6%;
+    }
+    #fifthCard .dogText2and3 {
+        color: #090444;
+        font-size: 0.9em;
+        margin-top: 8px;
+        margin-bottom: 0;
+        margin-left: 6%;
+    }
+}
+
+@media (max-width: 1050px) {
+    main h1 {
+        font-size: 30px;
+        margin-right: 2em;
+        margin-top: 0.5em;
+    }
+    #projectCard1and2 {
+        width: 80%;
+        height: 18em;
+        margin-bottom: 6em;
+    }
+    #projectCard1and2 #firstCard {
+        width: 18em;
+        height: 18em;
+    }
+    #projectCard1and2 #firstCard #webinarText1 {
+        margin-left: 1.4em;
+        width: 70%;
+        margin-top: 1em;
+        font-size: 1.4em;
+        margin-bottom: 0.5em;
+    }
+    #projectCard1and2 #firstCard .webinarText2and3 {
+        margin-left: 6em;
+        width: 50%;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #projectCard1and2 #firstCard #webinarText4 {
+        margin-top: 2em;
+        margin-left: 1.7em;
+        font-size: 1.2em;
+    }
+    #projectCard1and2 #secondCard {
+        width: 18em;
+        height: 18em;
+    }
+    #projectCard1and2 #secondCard p {
+        font-size: 1.3em;
+        left: 1em;
+        bottom: 0.2em;
+    }
+    #projectCard1and2 #secondCard #imgTote {
+        width: 14em;
+        height: 18em;
+    }
+    #projectCard4and5 {
+        width: 80%;
+        height: 18em;
+        margin-bottom: 6em;
+    }
+    #projectCard4and5 #forthCard {
+        width: 18em;
+        height: 18em;
+    }
+    #forthCard p {
+        color: #090444;
+        position: absolute;
+        font-size: 1.1em;
+        bottom: 1.3em;
+        left: 0.8em;
+    }  
+    #projectCard4and5 #fifthCard {
+        width: 18em;
+        height: 18em;
+    }
+    #fifthCard #dogText1 {
+        color: #F4EAE1;
+        font-size: 1.3em;
+        margin-bottom: 0;
+        margin-top: 1em;
+        margin-left: 6%;
+    }
+    #fifthCard .dogText2and3 {
+        color: #090444;
+        font-size: 0.8em;
+        margin-top: 6px;
+        margin-bottom: 0;
+        margin-left: 6%;
+    }
+    #fifthCard div {
+        background-image: url(../images/dog.jpg);
+        background-position: center top;
+        width: 100%;
+        height: 65%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 770px) {
+    #projectCard1and2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 18;
+        height: 40em;
+        margin-bottom: 6em;
+    }
+    #projectCard1and2 #firstCard {
+        margin: 0 auto;
+    }
+    #projectCard1and2 #secondCard {
+        margin: 0 auto;
+    }
+    #projectCard4and5 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 18;
+        height: 40em;
+        margin-bottom: 6em;
+    }
+    #projectCard4and5 #forthCard {
+        margin: 0 auto;
+    }
+    #projectCard4and5 #fifthCard {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 710px) {
+    #thirdCard {
+        width: 81%;
+        height: 18em;
+    }
+    #thirdCard #GarbageText1 {
+        margin-top: 1.2em;
+        font-size: 1.4em;
+        margin-left: 4%;
+        width: 45%;
+    } 
+    #thirdCard #GarbageText2 {
+        color: #090444;
+        font-size: 1.3em;
+        margin-left: 4%;
+        width: 60%;
+    }
+    #thirdCard #GarbageText3 {
+        color: #F4EAE1;
+        font-size: 0.6em;
+        margin-left: 4%;
+        width: 60%;
+    }
+}
+
+@media (max-width: 531px) {
+    #thirdCard {
+        width: 18em;
+        height: 18em;
+    }
+    #thirdCard #GarbageText1 {
+        margin-top: 1.8em;
+        font-size: 1em;
+        margin-left: 6%;
+        width: 45%;
+    } 
+    #thirdCard #GarbageText2 {
+        margin-top: 1.8em;
+        font-size: 1em;
+        margin-left: 6%;
+        width: 45%;
+        color: #edb506;
+    }
+    #thirdCard #GarbageText3 {
+        display: none;
+    }
+    #thirdCard #imgGarbage {
+        width: 9em;
+        height: 18em;
+    }
+}
+
 
 
 

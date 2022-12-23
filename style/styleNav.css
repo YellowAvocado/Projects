@@ -13,13 +13,11 @@ nav #NavContainer {
 nav #logo {
     height: 60px;
     width: 250px;
-    /* background-color: #5E5E5E; */
     margin-left: 2em;
 }
 
 nav section div img {
     max-width: 70%;
-    /* margin-top: -8px; */
 }
 
 nav ul a li {
@@ -36,9 +34,37 @@ nav ul a li {
     z-index: 3;
 }
 
-/* nav ul a li {
-    text-decoration: none;
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: #edb506;
-} */
+@media (max-width: 860px) {
+    nav #NavContainer {
+        display: block;
+        height: 142px;
+    }
+    nav ul {
+        margin-bottom: 0;
+    }
+    nav ul a li {
+        position: static;
+    }
+}
+
+@media (max-width: 500px) {
+    nav #logo {
+        height: 60px;
+        width: 150px;
+        margin-left: 1em;
+    }
+    nav ul a li {
+        text-decoration: none;
+        font-weight: 700;
+        color: #edb506;
+        display: inline-block;
+        padding: 12px 18px;
+        margin-right: 1em;
+        background-color: #fff;
+        border-radius: 1em;
+        font-size: 10px;
+        box-shadow: 6px 7px  #5E5E5E;
+        z-index: 3;
+    }
+
+}

@@ -18,9 +18,6 @@ main #headMain {
 
 main section #headImage img{
     float: right;
-    /* width: 60%; */
-    /* margin-right: 3em; */
-    /* margin-top: 57%; */
 }
 
 main section #headText {
@@ -53,11 +50,9 @@ main section #headText p {
     display: flex;
     justify-content: space-around;
     margin-top: 16em;
-    /* margin-bottom: 300px; */
-    height: 32em;
+    height: 28em;
     margin-bottom: 6em;
     padding: 0 2%;
-    /* border: 1px solid red; */
 }
 
 /* first card */
@@ -65,8 +60,6 @@ main section #headText p {
 #projectCard #firstCard {
     background-color: #D63FC1;
     width: 22em;
-    /* margin-left: 5em; */
-    /* margin-top: 16em; */
     height: 30em;
     border-radius: 4em;
     overflow: hidden;
@@ -78,7 +71,6 @@ main section #headText p {
     background-position: center center;
     width: 22em;
     height: 20em;
-    /* padding-top: 1em; */
 }
 
 #projectCard #firstCard #gymText1 {
@@ -86,7 +78,7 @@ main section #headText p {
     font-size: 2em;
     padding-left: 0.5em;
     margin: 0;
-    margin-top: 1em;    
+    margin-top: 0.5em;    
 }
 
 #projectCard #firstCard #gymText2 {
@@ -110,9 +102,10 @@ main section #headText p {
 
 #projectCard #secondCard #canText1 {
     font-size: 2em;
-    margin-top: 2em;
+    padding-top: 2.5em;
     margin-left: 1em;
     color: #F4EAE1;
+    margin-top: 0;
 }
 
 #imgCan {
@@ -135,8 +128,8 @@ main section #headText p {
 
 #projectCard #thirdCard #chlothText {
     font-size: 2em;
-    margin-top: 1.2em;
-    margin-left: 0.9em;
+    margin-top: 1.5em;
+    margin-left: 1em;
     color: #090444;
 }
 
@@ -151,14 +144,12 @@ main section #headText p {
 
 #GoVegan {
     margin: 0;
-    background-color: #F4EAE1; */
-    height: 70em;
+    background-color: #F4EAE1;
+    height: 50em;
 }
 
 #GoVegan #imgBoxSalad {
     margin: 0;
-    /* margin-left: 15em; */
-    /* padding-top: 2em; */
     width: 100%;
     height: 22em;
 }
@@ -174,7 +165,6 @@ main section #headText p {
 
 #saladTextBox {
     margin-left: 10em;
-    /* padding-top: 3em; */
 }
 
 #GoVegan h3 {
@@ -208,29 +198,20 @@ main section #headText p {
     color: #edb506;
     float: right;
     margin: 0;
-    /* margin-right: 3em; */
 }
 
 #donationBox #pEveryDolar {
     color: #edb506;
-    /* margin-top: 50px; */
-    /* margin-top: 6em; */
     font-size: 30px;
-    /* float: left; */
-    /* margin-left: 3em; */
 }
 
 #textBoxDonation {
-    /* margin-top: 50px; */
     padding-top: 50px;
 }
 
 #donationBox .pDonation {
     color: #090444;
-    /* margin-top: 5em; */
     font-size: 25px;
-    /* float: left; */
-    /* margin-left: 3em; */
 }
 
 /* responsive */
@@ -244,12 +225,9 @@ main section #headText p {
     }
 }
 
-
 @media (max-width: 1020px) {
     #projectCard {
-        height: 1700px;
-        /* margin-top: 30px; */
-        /* padding: 0 20px; */
+        height: 1200px;
     }
     #projectCard #firstCard {
         margin-right: 35px;
@@ -260,17 +238,27 @@ main section #headText p {
     #projectCard #thirdCard {
         margin-right: 35px;
     }
+    #GoVegan {
+        height: 800px;
+    }
+}
+
+@media (max-width: 968px) {
+    #projectCard {
+        height: 1540px;
+    }
 }
 
 @media (max-width: 860px) {
+    #projectCard {
+        height: 1700px;
+    }
     main #headMain {
         height: 500px;
     }
-
     #saladTextBox {
         margin-left: 5em;
     }
-
     #GoVegan #saladTextBox p {
         margin-right: 3%;
     }
@@ -286,18 +274,206 @@ main section #headText p {
         position: absolute;
         top: 130px;
     }
-    main section #headImage img {
-        
-    }
-
-
-    /* hamburger */
-
-
 }
 
-@media (max-width: 730px) 
+@media (max-width: 730px)  {
+    #MainProjectCards {
+        font-size: 25px;
+    }
+    main section #headImage {
+        margin: 0;
+    }
 
+    /* go vegan */
+    #GoVegan {
+        height: 40em;
+    }
+    #GoVegan h3 {
+        margin-top: 0.5em;
+        font-size: 3.5em;
+        width: 30%;
+    }
+    #GoVegan #saladTextBox {
+        height: 20em;
+    } 
+    #GoVegan #saladTextBox p {
+        width: 40%;
+        font-size: 1em;
+        color: #edb506;
+        margin-right: 8%;
+        margin-top: 6em;
+    } 
+
+    /* donation */
+    #donationBox { 
+        height: 250px;
+    }
+    #donationBox h3 {
+        font-size: 25px;
+    }
+    #donationBox #pEveryDolar { 
+        font-size: 25px;
+    }
+    #textBoxDonation {
+        padding-top: 40px;
+    }
+    #donationBox .pDonation {
+        color: #090444;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 613px) {
+    #donationBox h3 {
+        float: none;
+    }
+    #textBoxDonation {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    main section #headText p {
+        font-size: 30px;
+        margin-right: 10%;
+    }
+    main #headMain {
+        width: 100%;
+        height: 450px;
+        float: none;
+    }   
+    main section #headImage img{
+        margin: 0;
+        width: 350px;
+    }
+    #GoVegan #saladTextBox {
+        height: 15em;
+    } 
+    #donationBox {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    #projectCard {
+        height: 1400px;
+    }
+    #projectCard #firstCard {
+        margin: 0;
+        width: 18.3em;
+        height: 25em;
+    }
+    #projectCard #firstCard #imgGym {
+        width: 19em;
+        height: 18em;
+    }
+    #projectCard #firstCard #gymText1 {
+        font-size: 1.2em;
+        padding-left: 0.5em;
+        margin: 0;
+        margin-top: 0.5em;    
+    }
+    #projectCard #firstCard #gymText2 {
+        margin: 0;
+        color: #F4EAE1;
+        font-size: 0.9em;
+        padding-right: 1.5em;
+        padding-left: 4em;
+        padding-top: 0.5em;
+    }
+    #projectCard #secondCard {
+        margin: 0;
+        width: 18.3em;
+        height: 25em;
+    }
+    #projectCard #secondCard #canText1 {
+        font-size: 1.8em;
+        padding-top: 2.3em;
+        margin-left: 0.7em;
+        color: #F4EAE1;
+        margin-top: 0;
+    }
+    #imgCan {
+        width: 19em;
+        height: 18em;
+    }
+    #projectCard #thirdCard {
+        margin: 0;
+        width: 18.3em;
+        height: 25em;
+    }
+    #projectCard #thirdCard #chlothText {
+        font-size: 1.5em;
+        margin-top: 1.5em;
+        margin-left: 1em;
+        color: #090444;
+    }
+    #imgShirts{
+        width: 19em;
+        height: 22em;
+    }
+    #GoVegan {
+        height: 600px;
+    }
+    #GoVegan h3 {
+        margin-left: 0.5em;
+        font-size: 2em;
+        width: 60%;
+    }
+    #GoVegan #saladTextBox{
+        margin-left: 15px;
+    }
+    #GoVegan #saladTextBox p {
+        margin-left: 10px;
+        font-size: 15px;
+        width: 85%;
+        float: none;
+        margin-top: 0;
+    }
+    #donationBox {
+        margin-top: 15px;
+        height: 220px;
+    }
+    #donationBox h3 {
+        font-size: 20px;
+    }
+    #donationBox #pEveryDolar { 
+        font-size: 20px;
+    }
+    #donationBox .pDonation {
+        color: #090444;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    main #headMain {
+        position: static;
+        display: block;
+        height: 350px;
+    }
+    main #headMain #headText {
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+    }
+    main #headMain #headImage {
+        width: 320px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    main #headMain img {
+        width: 320px;
+        margin: 0;
+    }
+    main #headMain #headImage {
+        width: 320px;
+        margin: 0;
+        overflow: hidden;
+    }
+}
 
 
 
